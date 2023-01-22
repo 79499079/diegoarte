@@ -6,7 +6,9 @@ export default function Home() {
     <>
       <InicioVideo />
       <Layout title="Inicio">
-        <div className="relative text-2xl mb-8 text-white">Hola</div>
+        <div className="absolute mt-16 -ml-40 text-xl text-white">
+          ¡Tus ideas la ponemos en papel!
+        </div>
       </Layout>
     </>
   );
