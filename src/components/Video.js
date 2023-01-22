@@ -14,7 +14,7 @@ export default function Video() {
         <div className="relative w-32 lg:w-full">
           <Image
             src="https://res.cloudinary.com/helioplois/image/upload/v1674355826/Imag_Pagina/Productos/Logo_Diego_zpkl6z.png"
-            alt="Landscape picture"
+            alt="logo diego"
             width={200}
             height={200}
           />
