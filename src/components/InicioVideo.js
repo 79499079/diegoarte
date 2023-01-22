@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-export default function Video() {
+export default function InicioVideo() {
   return (
     <>
       <video loop autoPlay muted className="absolute">
