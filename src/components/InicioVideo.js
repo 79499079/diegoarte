@@ -6,7 +6,7 @@ export default function InicioVideo() {
     <>
       <video loop autoPlay muted className="absolute">
         <source
-          src="https://res.cloudinary.com/dt1t9p91q/video/upload/v1673836955/img_pagina/pexels-nataliya-vaitkevich-7525914_tpgjsx.mp4"
+          src="https://res.cloudinary.com/zhamat-tecnologia/video/upload/v1674419782/Zhm_Distribuidores/Pexels_Videos_3524_dmq78r.mp4"
           type="video/mp4"
         />
       </video>
