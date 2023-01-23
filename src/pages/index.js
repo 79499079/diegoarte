@@ -10,7 +10,9 @@ export default function Home() {
       </div>
       <InicioVideo />
       <Layout title="Inicio">
-        <div className="relative text-2xl bg-red-500">Portafolio</div>
+        <div id="portafolio" className="relative text-2xl h-56 bg-red-500">
+          Portafolio1
+        </div>
       </Layout>
     </>
   );
