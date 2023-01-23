@@ -21,11 +21,6 @@ export default function Home() {
             <div className="grid border border-red-800 rounded-xl tarjeta1  hover:rotate-0" />
             <div className="grid border border-red-800 rounded-xl tarjeta1  hover:rotate-0" />
           </div>
-
-          <div className="flex gap-2">
-            <div className="grid border border-red-800 rounded-xl tarjeta1  hover:rotate-0" />
-            <div className="grid border border-red-800 rounded-xl tarjeta1  hover:rotate-0" />
-          </div>
         </div>
       </Layout>
     </>
