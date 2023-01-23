@@ -6,3 +6,11 @@
   background-image: url("https://res.cloudinary.com/zhamat-tecnologia/image/upload/v1674436209/Zhm_Distribuidores/Logo_Diego_wi1p7e.png");
   background-repeat: no-repeat;
 }
+
+.tarjeta1 {
+  background-image: url("https://res.cloudinary.com/zhamat-tecnologia/image/upload/v1674496475/Zhm_Distribuidores/modelo_tarjeta_iauqsj.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 21rem;
+  height: 12rem;
+}

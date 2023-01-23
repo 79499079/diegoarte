@@ -22,7 +22,7 @@ export default function Navegacion() {
               <Link href="/">Inicio</Link>
             </li>
             <li>
-              <Link href="#portafolio6">Portafolio</Link>
+              <Link href="#portafolio">Portafolio</Link>
             </li>
             <li>
               <Link href="/">Contacto</Link>
