@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Navegacion() {
   return (
-    <header className="relative bg-gradient-to-b from-black to-gray-500">
+    <header className="absolute bg-gradient-to-b from-black-500 to-transparent w-full">
       <nav className="columns-2 justify-between">
         <div className="w-28 md:w-56">
           <Image
