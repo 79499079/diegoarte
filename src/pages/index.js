@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
-import Navegacion from "@/components/Navegacion";
+/* import Navegacion from "@/components/Navegacion";
 import Image from "next/image";
-import InicioVideo from "../components/InicioVideo";
+import InicioVideo from "../components/InicioVideo"; */
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
           id="portafolio"
           className="grid grid-flow-row md:grid-flow-col gap-4"
         >
-          <div className="grid border border-red-800 rounded-xl tarjeta1" />
+          <div className="grid border border-red-800 rounded-xl tarjeta1 rotate-6 hover:rotate-0" />
         </div>
       </Layout>
     </>
