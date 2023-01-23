@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.fondo1 {
+  background-image: url("https://res.cloudinary.com/zhamat-tecnologia/image/upload/v1674436209/Zhm_Distribuidores/Logo_Diego_wi1p7e.png");
+  background-repeat: no-repeat;
+}
