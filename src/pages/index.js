@@ -5,10 +5,6 @@ import InicioVideo from "../components/InicioVideo";
 export default function Home() {
   return (
     <>
-      <div className="text-white">
-        <Navegacion />
-      </div>
-      <InicioVideo />
       <Layout title="Inicio">
         <div id="portafolio" className="relative text-2xl h-56 bg-red-500">
           Portafolio1
