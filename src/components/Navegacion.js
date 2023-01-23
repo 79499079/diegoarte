@@ -16,8 +16,8 @@ export default function Navegacion() {
             />
           </Link>
         </div>
-        <div className="mr-4 pt-2">
-          <ul class="flex gap-4 justify-end">
+        <div className="mr-4 pt-2 text-sm lg:text-xl">
+          <ul class="flex gap-2 justify-end lg:gap-8">
             <li>
               <Link href="/">Inicio</Link>
             </li>
