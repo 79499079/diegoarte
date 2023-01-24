@@ -4,8 +4,11 @@ export default function Home() {
   return (
     <>
       <Layout title="Inicio">
-        <div className="text-center my-6 text-2xl">Nuestro Portafolio</div>
-        <div className="bg-red-800 mx-auto"></div>
+        <div className="text-center my-6 text-2xl text-green-800">
+          Nuestro Portafolio
+          <div className="h-0.5 w-72 bg-green-800 mx-auto mt-2 mb-8" />
+        </div>
+
         <div
           id="portafolio"
           className="grid grid-flow-row md:grid-flow-col lg:grid-flow-col gap-4 hover:border-transparent hover:text-teal-500 hover:bg-white"
