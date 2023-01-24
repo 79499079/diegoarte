@@ -10,7 +10,7 @@
 .tarjeta1 {
   background-image: url("https://res.cloudinary.com/zhamat-tecnologia/image/upload/v1674496475/Zhm_Distribuidores/modelo_tarjeta_iauqsj.jpg");
   background-repeat: no-repeat;
-  object-fit: scale-down;
-  width: auto;
+  width: auto !important;
   height: 12rem;
+  display: block;
 }
