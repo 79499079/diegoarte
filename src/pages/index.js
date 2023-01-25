@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -18,6 +19,16 @@ export default function Home() {
               src="https://res.cloudinary.com/zhamat-tecnologia/image/upload/v1674496475/Zhm_Distribuidores/modelo_tarjeta_iauqsj.jpg"
               alt="image"
               className="imagenportafolio"
+            />
+            <motion.div
+              className="container"
+              initial={{ scale: 0 }}
+              animate={{ rotate: 180, scale: 1 }}
+              transition={{
+                type: "spring",
+                stiffness: 260,
+                damping: 20,
+              }}
             />
             <div className="grid justify-items-stretch -mt-8">
               <div className="justify-self-center">
