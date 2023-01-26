@@ -39,19 +39,30 @@ export default function Home() {
               </div>
             </div>
           </motion.div>
-          <div className="w-full rounded justify-center items-center">
-            <img
-              src="https://res.cloudinary.com/zhamat-tecnologia/image/upload/v1674524803/Zhm_Distribuidores/pendones_aiqjpg.jpg"
-              alt="Pendones"
-            />
-            <div className="grid justify-items-stretch -mt-8">
-              <div className="justify-self-center">
-                <button className="w-36 h-10 px-6 m-2 text-lg text-indigo-100 duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800 shadow-[0_5px_0_rgb(110,110,114)] hover:shadow-[0_2px_0px_rgb(110,110,114)] ease-out hover:translate-y-1 transition-all ">
-                  Pendones
-                </button>
+          <motion.div
+            className="container"
+            initial={{ scale: 0 }}
+            animate={{ rotate: 360, scale: 1 }}
+            transition={{
+              type: "spring",
+              stiffness: 260,
+              damping: 20,
+            }}
+          >
+            <div className="w-full rounded justify-center items-center">
+              <img
+                src="https://res.cloudinary.com/zhamat-tecnologia/image/upload/v1674524803/Zhm_Distribuidores/pendones_aiqjpg.jpg"
+                alt="Pendones"
+              />
+              <div className="grid justify-items-stretch -mt-8">
+                <div className="justify-self-center">
+                  <button className="w-36 h-10 px-6 m-2 text-lg text-indigo-100 duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800 shadow-[0_5px_0_rgb(110,110,114)] hover:shadow-[0_2px_0px_rgb(110,110,114)] ease-out hover:translate-y-1 transition-all ">
+                    Pendones
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
+          </motion.div>
           <div className="w-full rounded justify-center items-center">
             <img
               src="https://res.cloudinary.com/zhamat-tecnologia/image/upload/v1674524985/Zhm_Distribuidores/carpetas_yhrznm.jpg"
