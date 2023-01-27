@@ -10,7 +10,7 @@ export default function Home() {
       <div className="relative text-white">
         <Navegacion />
       </div>
-      <div className="absolute text-white text-xl mt-20 ml-10 md:mt-48 md:ml-20 bg-gray-600/30 p-2 md:text-4xl md:mt-24 lg:text-6xl lg:mt-56">
+      <div className="absolute text-white text-xl sm:mt-40 sm:ml-28 sm:text-3xl mt-20 ml-10 md:mt-48 md:ml-20 bg-gray-600/30 p-2 md:text-4xl md:mt-24 lg:text-6xl lg:mt-56">
         ¡Tus ideas las llevamos al papel!
       </div>
       <InicioVideo />
