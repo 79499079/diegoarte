@@ -13,6 +13,7 @@ export default function Navegacion() {
               alt="Logo"
               width={200}
               height={200}
+              className="mb-10"
             />
           </Link>
         </div>

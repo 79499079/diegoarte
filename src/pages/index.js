@@ -10,9 +10,20 @@ export default function Home() {
       <div className="relative text-white">
         <Navegacion />
       </div>
-      <div className="absolute text-white text-xl sm:mt-40 sm:ml-28 sm:text-3xl mt-20 ml-10 md:mt-48 md:ml-20 bg-gray-600/30 p-2 md:text-4xl md:mt-24 lg:text-6xl lg:mt-56">
-        ¡Tus ideas las llevamos al papel!
-      </div>
+      <motion.div
+        className="container"
+        initial={{ scale: 0 }}
+        animate={{ rotate: 360, scale: 1 }}
+        transition={{
+          type: "spring",
+          stiffness: 260,
+          damping: 20,
+        }}
+      >
+        <div className="absolute text-white text-xl sm:mt-40 sm:ml-28 sm:text-3xl mt-20 ml-10 md:mt-48 md:ml-20 bg-gray-600/30 p-2 md:text-4xl md:mt-24 lg:text-6xl lg:mt-56">
+          ¡Tus ideas las llevamos al papel!
+        </div>
+      </motion.div>
       <InicioVideo />
 
       <Layout title="Inicio">
@@ -25,57 +36,38 @@ export default function Home() {
           id="portafolio"
           className="grid grid-flow-row md:grid-flow-col lg:grid-flow-col gap-4 hover:border-transparent hover:text-teal-500 hover:bg-white"
         >
-          <motion.div
-            className="container"
-            initial={{ scale: 0 }}
-            animate={{ rotate: 360, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 260,
-              damping: 20,
-            }}
-          >
-            <div className="w-full rounded justify-center items-center">
-              <img
-                src="https://res.cloudinary.com/zhamat-tecnologia/image/upload/v1674496475/Zhm_Distribuidores/modelo_tarjeta_iauqsj.jpg"
-                alt="image"
-                className="imagenportafolio"
-              />
-              <div className="grid justify-items-stretch -mt-8">
-                <div className="justify-self-center">
-                  <Link href="/Tarjetas">
-                    <button className="w-36 h-10 px-6 m-2 text-lg text-indigo-100 duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800 shadow-[0_5px_0_rgb(110,110,114)] hover:shadow-[0_2px_0px_rgb(110,110,114)] ease-out hover:translate-y-1 transition-all ">
-                      Tarjetas
-                    </button>
-                  </Link>
-                </div>
+          <div className="w-full rounded justify-center items-center">
+            <img
+              src="https://res.cloudinary.com/zhamat-tecnologia/image/upload/v1674496475/Zhm_Distribuidores/modelo_tarjeta_iauqsj.jpg"
+              alt="image"
+              className="imagenportafolio"
+            />
+            <div className="grid justify-items-stretch -mt-8">
+              <div className="justify-self-center">
+                <Link href="/Tarjetas">
+                  <button className="w-36 h-10 px-6 m-2 text-lg text-indigo-100 duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800 shadow-[0_5px_0_rgb(110,110,114)] hover:shadow-[0_2px_0px_rgb(110,110,114)] ease-out hover:translate-y-1 transition-all ">
+                    Tarjetas
+                  </button>
+                </Link>
               </div>
             </div>
-          </motion.div>
-          <motion.div
-            className="container"
-            initial={{ scale: 0 }}
-            animate={{ rotate: 360, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 260,
-              damping: 20,
-            }}
-          >
-            <div className="w-full rounded justify-center items-center">
-              <img
-                src="https://res.cloudinary.com/zhamat-tecnologia/image/upload/v1674524803/Zhm_Distribuidores/pendones_aiqjpg.jpg"
-                alt="Pendones"
-              />
-              <div className="grid justify-items-stretch -mt-8">
-                <div className="justify-self-center">
+          </div>
+          <div className="w-full rounded justify-center items-center">
+            <img
+              src="https://res.cloudinary.com/zhamat-tecnologia/image/upload/v1674524803/Zhm_Distribuidores/pendones_aiqjpg.jpg"
+              alt="Pendones"
+            />
+            <div className="grid justify-items-stretch -mt-8">
+              <div className="justify-self-center">
+                <Link href="/Pendones">
                   <button className="w-36 h-10 px-6 m-2 text-lg text-indigo-100 duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800 shadow-[0_5px_0_rgb(110,110,114)] hover:shadow-[0_2px_0px_rgb(110,110,114)] ease-out hover:translate-y-1 transition-all ">
                     Pendones
                   </button>
-                </div>
+                </Link>
               </div>
             </div>
-          </motion.div>
+          </div>
+
           <div className="w-full rounded justify-center items-center">
             <img
               src="https://res.cloudinary.com/zhamat-tecnologia/image/upload/v1674524985/Zhm_Distribuidores/carpetas_yhrznm.jpg"

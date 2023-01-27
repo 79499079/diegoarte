@@ -8,7 +8,7 @@ export default function Layout({ title, children }) {
     <>
       <Head>
         <title>
-          {title ? title + " Arte & Publicidad" : "Arte & Publicidad"}
+          {title ? title + " - Arte & Publicidad" : "- Arte & Publicidad"}
         </title>
         <meta name="description" content="Ecommerce Website" />
         <link rel="icon" href="/favicon.ico" />
