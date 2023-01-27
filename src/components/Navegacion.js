@@ -34,9 +34,6 @@ export default function Navegacion() {
           </ul>
         </div>
       </nav>
-      <div className="text-white text-xl mt-10 text-center bg-gray-600/25 p-2 md:text-4xl md:mt-24 lg:text-6xl lg:mt-56">
-        ¡Tus ideas las llevamos al papel!
-      </div>
     </header>
   );
 }

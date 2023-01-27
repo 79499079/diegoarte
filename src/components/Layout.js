@@ -15,10 +15,6 @@ export default function Layout({ title, children }) {
       </Head>
 
       <div className="flex min-h-screen flex-col justify-between ">
-        <div className="text-white">
-          <Navegacion />
-        </div>
-        <InicioVideo />
         <main className="container m-auto mt-4 px-4">{children}</main>
       </div>
     </>

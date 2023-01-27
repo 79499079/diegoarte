@@ -1,9 +1,20 @@
+import InicioVideo from "@/components/InicioVideo";
 import Layout from "@/components/Layout";
+import Navegacion from "@/components/Navegacion";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
+      <div className="relative text-white">
+        <Navegacion />
+      </div>
+      <div className="absolute text-white text-xl mt-20 ml-10 md:mt-48 md:ml-20 bg-gray-600/30 p-2 md:text-4xl md:mt-24 lg:text-6xl lg:mt-56">
+        ¡Tus ideas las llevamos al papel!
+      </div>
+      <InicioVideo />
+
       <Layout title="Inicio">
         <div className="text-center my-6 text-2xl text-green-800">
           Nuestro Portafolio
@@ -32,9 +43,11 @@ export default function Home() {
               />
               <div className="grid justify-items-stretch -mt-8">
                 <div className="justify-self-center">
-                  <button className="w-36 h-10 px-6 m-2 text-lg text-indigo-100 duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800 shadow-[0_5px_0_rgb(110,110,114)] hover:shadow-[0_2px_0px_rgb(110,110,114)] ease-out hover:translate-y-1 transition-all ">
-                    Tarjetas
-                  </button>
+                  <Link href="/Tarjetas">
+                    <button className="w-36 h-10 px-6 m-2 text-lg text-indigo-100 duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800 shadow-[0_5px_0_rgb(110,110,114)] hover:shadow-[0_2px_0px_rgb(110,110,114)] ease-out hover:translate-y-1 transition-all ">
+                      Tarjetas
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
