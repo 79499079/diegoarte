@@ -75,9 +75,11 @@ export default function Home() {
             />
             <div className="grid justify-items-stretch -mt-8">
               <div className="justify-self-center">
-                <button className="w-36 h-10 px-6 m-2 text-lg text-indigo-100 duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800 shadow-[0_5px_0_rgb(110,110,114)] hover:shadow-[0_2px_0px_rgb(110,110,114)] ease-out hover:translate-y-1 transition-all ">
-                  Carpetas
-                </button>
+                <Link href="/Carpetas">
+                  <button className="w-36 h-10 px-6 m-2 text-lg text-indigo-100 duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800 shadow-[0_5px_0_rgb(110,110,114)] hover:shadow-[0_2px_0px_rgb(110,110,114)] ease-out hover:translate-y-1 transition-all ">
+                    Carpetas
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -92,9 +94,11 @@ export default function Home() {
             />
             <div className="grid justify-items-stretch -mt-8">
               <div className="justify-self-center">
-                <button className="w-36 h-10 px-6 m-2 text-lg text-indigo-100 duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800 shadow-[0_5px_0_rgb(110,110,114)] hover:shadow-[0_2px_0px_rgb(110,110,114)] ease-out hover:translate-y-1 transition-all ">
-                  Factureros
-                </button>
+                <Link href="/Factureros">
+                  <button className="w-36 h-10 px-6 m-2 text-lg text-indigo-100 duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800 shadow-[0_5px_0_rgb(110,110,114)] hover:shadow-[0_2px_0px_rgb(110,110,114)] ease-out hover:translate-y-1 transition-all ">
+                    Factureros
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -105,9 +109,11 @@ export default function Home() {
             />
             <div className="grid justify-items-stretch -mt-8">
               <div className="justify-self-center">
-                <button className="w-36 h-10 px-6 m-2 text-lg text-indigo-100 duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800 shadow-[0_5px_0_rgb(110,110,114)] hover:shadow-[0_2px_0px_rgb(110,110,114)] ease-out hover:translate-y-1 transition-all ">
-                  Calendarios
-                </button>
+                <Link href="/Calendarios">
+                  <button className="w-36 h-10 px-6 m-2 text-lg text-indigo-100 duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800 shadow-[0_5px_0_rgb(110,110,114)] hover:shadow-[0_2px_0px_rgb(110,110,114)] ease-out hover:translate-y-1 transition-all ">
+                    Calendarios
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -118,9 +124,11 @@ export default function Home() {
             />
             <div className="grid justify-items-stretch -mt-8">
               <div className="justify-self-center">
-                <button className="w-36 h-10 px-6 m-2 text-lg text-indigo-100 duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800 shadow-[0_5px_0_rgb(110,110,114)] hover:shadow-[0_2px_0px_rgb(110,110,114)] ease-out hover:translate-y-1 transition-all ">
-                  Impresos
-                </button>
+                <Link href="/Impresos">
+                  <button className="w-36 h-10 px-6 m-2 text-lg text-indigo-100 duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800 shadow-[0_5px_0_rgb(110,110,114)] hover:shadow-[0_2px_0px_rgb(110,110,114)] ease-out hover:translate-y-1 transition-all ">
+                    Impresos
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
