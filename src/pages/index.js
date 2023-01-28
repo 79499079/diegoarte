@@ -24,6 +24,7 @@ export default function Home() {
           ¡Tus ideas las llevamos al papel!
         </div>
       </motion.div>
+
       <InicioVideo />
 
       <Layout title="Inicio">

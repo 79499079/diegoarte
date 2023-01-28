@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Navegacion() {
   return (
-    <header className="absolute z-30 bg-gradient-to-b from-black to-transparent w-full">
+    <header className="absolute z-30 bg-gradient-to-b from-black to-transparent w-full pb-6">
       <nav className="columns-2 justify-between">
         <div className="w-28 md:w-56">
           <Link href="/">
