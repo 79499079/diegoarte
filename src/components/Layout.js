@@ -20,7 +20,7 @@ export default function Layout({ title, children }) {
       </div>
 
       <footer className="bg-gradient-to-b from-transparent to-black text-center py-8 text-white">
-        <div class="flex gap-8 md:columns-3 p-4">
+        <div className="flex gap-8 md:columns-3 p-4">
           <div className="flex items-center p-4">
             <Redes />
           </div>

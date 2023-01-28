@@ -89,9 +89,8 @@ export default function Home() {
         <div className="grid grid-flow-row md:grid-flow-col lg:grid-flow-col gap-4 hover:border-transparent hover:text-teal-500 hover:bg-white mt-8">
           <div className="w-full rounded justify-center items-center">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnzGk9qe331tRx7ANcFp-6iHNrGdi8tZy0JScGm3wgWEmcTBUak37Tal6mH2OSMLETZ4E&usqp=CAU"
+              src="https://res.cloudinary.com/zhamat-tecnologia/image/upload/v1674572641/Zhm_Distribuidores/facturero_is5wyy.jpg"
               alt="image"
-              className="imagenportafolio"
             />
             <div className="grid justify-items-stretch -mt-8">
               <div className="justify-self-center">
