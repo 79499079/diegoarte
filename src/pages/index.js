@@ -28,15 +28,15 @@ export default function Home() {
       <InicioVideo />
 
       <Layout title="Inicio">
-        <div className="text-center my-6 text-2xl text-green-800">
+        <div
+          id="portafolio"
+          className="text-center my-6 text-2xl text-green-800"
+        >
           Nuestro Portafolio
           <div className="h-0.5 w-72 bg-green-800 mx-auto mt-2 mb-8" />
         </div>
 
-        <div
-          id="portafolio"
-          className="grid grid-flow-row md:grid-flow-col lg:grid-flow-col gap-4 hover:border-transparent hover:text-teal-500 hover:bg-white"
-        >
+        <div className="grid grid-flow-row md:grid-flow-col lg:grid-flow-col gap-4 hover:border-transparent hover:text-teal-500 hover:bg-white">
           <div className="w-full rounded justify-center items-center">
             <img
               src="https://res.cloudinary.com/zhamat-tecnologia/image/upload/v1674496475/Zhm_Distribuidores/modelo_tarjeta_iauqsj.jpg"
