@@ -30,7 +30,7 @@ export default function Navegacion() {
             </li>
 
             <li>
-              <Link href="/">Usuario</Link>
+              <Link href="/Usuario">Usuario</Link>
             </li>
           </ul>
         </div>
