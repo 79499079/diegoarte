@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Usuario() {
   return (
-    <div>
+    <div className="text-white">
       <Navegacion />
       <Layout title="Usuario">
         <div class="font-sans p-6 mt-14">
