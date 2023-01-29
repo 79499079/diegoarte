@@ -4,7 +4,7 @@ export default function Redes() {
   return (
     <div className="grid grid-cols-1 gap-4 mt-4">
       <div className="text-center mb-4">
-        <div className="flex grid-cols-3 justify-center">
+        <div className="flex grid-cols-3 justify-center gap-8">
           <div className="mr-4">
             <svg
               width="2rem"

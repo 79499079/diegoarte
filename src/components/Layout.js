@@ -20,12 +20,12 @@ export default function Layout({ title, children }) {
       </div>
 
       <footer className="bg-gradient-to-b from-transparent to-black text-center py-8 text-white">
-        <div className="flex gap-8 md:columns-3 p-4">
-          <div className="flex items-center p-4">
+        <div className="gap-8 sm:columns-2 p-4">
+          <div className="items-center">
             <Redes />
           </div>
-          <div className="flex items-center">
-            Carrera 22 No 12B - 32. Bogotá <>Cel.32010000000</>
+          <div className="items-center">
+            Carrera 22 No 12B - 32. Bogotá <>Cel.304 6372758</>
           </div>
         </div>
       </footer>
