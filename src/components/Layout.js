@@ -25,7 +25,7 @@ export default function Layout({ title, children }) {
             <Redes />
           </div>
           <div className="items-center">
-            Carrera 22 No 12B - 32. Bogotá <>Cel.304 6372758</>
+            Carrera 22 No 12B - 32. Bogotá <>Cel.3046372758</>
           </div>
         </div>
       </footer>
